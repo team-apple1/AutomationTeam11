@@ -47,13 +47,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="174">
+              <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,10 +127,10 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/resources/BBCTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java" />
         <option value="$PROJECT_DIR$/BBC/src/main/java/HomepageData/HomepageData.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Homepage/Mainpage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
+        <option value="$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java" />
       </list>
     </option>
   </component>
@@ -300,7 +302,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553730297340" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553731065241" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -331,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Searchbar.searchButton">
+  <component name="RunManager" selected="TestNG.Searchbar.searchBusiness">
     <configuration name="Mainpage.title" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BBC" />
       <extension name="coverage">
@@ -386,6 +388,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Searchbar.searchBusiness" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Search" />
+      <option name="MAIN_CLASS_NAME" value="Search.Searchbar" />
+      <option name="METHOD_NAME" value="searchBusiness" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Searchbar.searchButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BBC" />
       <extension name="coverage">
@@ -404,31 +424,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contactus.contact" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Contact.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Contact" />
-      <option name="MAIN_CLASS_NAME" value="Contact.contactus" />
-      <option name="METHOD_NAME" value="contact" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Searchbar.searchBusiness" />
         <item itemvalue="TestNG.Searchbar.searchButton" />
         <item itemvalue="TestNG.Searchbar.search" />
         <item itemvalue="TestNG.Mainpage.title" />
         <item itemvalue="TestNG.Searchbar.searchBar" />
-        <item itemvalue="TestNG.contactus.contact" />
       </list>
     </recent_temporary>
   </component>
@@ -446,9 +448,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Mainpage_title - 2019.03.26 at 13h 39m 46s.xml">
-      <configuration name="Mainpage.title" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Mainpage_title - 2019.03.27 at 14h 20m 35s.xml">
       <configuration name="Mainpage.title" configurationId="TestNG" />
     </history-entry>
@@ -476,12 +475,15 @@
     <history-entry file="Searchbar_search - 2019.03.27 at 16h 39m 43s.xml">
       <configuration name="Searchbar.search" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Searchbar_searchButton - 2019.03.27 at 19h 45m 00s.xml">
+      <configuration name="Searchbar.searchButton" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25101215" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25101215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,7 +492,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -670,13 +672,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="174">
+          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#222#223#0" expanded="true" />
             <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
           </folding>
         </state>
       </provider>
