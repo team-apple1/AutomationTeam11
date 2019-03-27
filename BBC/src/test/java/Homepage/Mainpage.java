@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Mainpage extends CommonAPI {
 
 
-    String url = "https://www.bbc.com/";
+    //String url = "https://www.bbc.com/";
     @Test //test1
     public void title() {
         String title = driver.getTitle();
@@ -204,5 +204,6 @@ public class Mainpage extends CommonAPI {
         driver.findElement(By.linkText("Facebook")).click();
 
     }
+
 
 }

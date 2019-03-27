@@ -122,7 +122,6 @@ public class CommonAPI {
         } else if(browserName.equalsIgnoreCase("chrome-options")){
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
-            options.addArguments("--incognito");
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", "C:\\Users\\fazli\\IdeaProjects\\lenovoautomation\\Generic\\driver\\chromedriver.exe");
             }else if(OS.equalsIgnoreCase("Windows")){
