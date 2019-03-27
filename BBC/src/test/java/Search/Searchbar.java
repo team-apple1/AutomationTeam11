@@ -15,4 +15,9 @@ public class Searchbar extends CommonAPI {
         driver.findElement(By.id("orb-search-q")).sendKeys("technology");
         driver.findElement(By.id("orb-search-button")).click();
     }
-}
+        @Test
+        public void search() {
+            driver.findElement(By.id("orb-search-q")).sendKeys("weather", Keys.ENTER);
+        }
+    }
+
