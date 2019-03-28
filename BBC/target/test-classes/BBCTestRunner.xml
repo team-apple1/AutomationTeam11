@@ -11,10 +11,14 @@
     <parameter name="browserVersion" value="30.0"/>
     <parameter name="url" value="https://www.BBC.com/"/>
 
-    <test name = "BBC Home">
+    <test name = "BBC Test">
         <classes>
 
          <class name="Homepage.Mainpage"/>
+            <class name="Contact.contactus"/>
+            <class name="Register.Registration"/>
+            <class name="Search.Searchbar"/>
+            <class name="Signin.login"/>
         </classes>
     </test>
 
