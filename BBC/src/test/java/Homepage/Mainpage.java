@@ -224,7 +224,7 @@ public class Mainpage extends CommonAPI {
             e.printStackTrace();
         }
         for (String s : list) {
-            driver.findElement(By.id("orb-search-q")).sendKeys("latest news", Keys.ENTER);
+            driver.findElement(By.id("orb-search-q")).sendKeys(s,Keys.ENTER);
         }
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()) + " " + s);
