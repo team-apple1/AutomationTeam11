@@ -13,17 +13,6 @@ public class HomePage extends CommonAPI {
 
 
     @Test
-    public void testTopDeals (){
-        driver.findElement(By.xpath("//a[@href='#secondaryMenu']")).click();
-        driver.findElement(By.id("deals-topDeals")).click();
-    }
-
-    @Test
-    public void testWeeklyAd (){
-        driver.findElement(By.linkText("Weekly Ad")).click();
-    }
-
-    @Test
     public void testRedCard (){
         driver.findElement(By.linkText("REDcard")).click();
     }
@@ -71,6 +60,11 @@ public class HomePage extends CommonAPI {
     @Test
     public void testHome (){
         driver.findElement(By.linkText("Home")).click();
+    }
+
+    @Test
+    public void testWeeklyAd (){
+        driver.findElement(By.linkText("Weekly Ad")).click();
     }
 
     @Test
@@ -151,6 +145,12 @@ public class HomePage extends CommonAPI {
     @Test
     public void testCart (){
         driver.findElement(By.id("cart")).click();
+    }
+
+    @Test
+    public void testTopDeals (){
+        driver.findElement(By.xpath("//a[@href='#secondaryMenu']")).click();
+        driver.findElement(By.id("deals-topDeals")).click();
     }
 
 
