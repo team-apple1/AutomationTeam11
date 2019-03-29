@@ -212,25 +212,7 @@ public class Mainpage extends CommonAPI {
 
     }
 
-    @Test
-            (description = "mysql test")
-    public void testSearchItemsSql() {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        List<String> list = null;
-        try {
-            list = MySqlData.getresultlistFromDB();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        for (String s : list) {
-            driver.findElement(By.id("orb-search-q")).sendKeys(s,Keys.ENTER);
-        }
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()) + " " + s);
-    }
-
-        }
+}
 
 
 
