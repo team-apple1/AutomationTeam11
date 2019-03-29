@@ -2,20 +2,22 @@ package Home;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
+
 
 public class HomePage extends CommonAPI {
 
+    @Test
+    public void testTitle () {
+        TestLogger.log("Test Title");
+        String title = driver.getTitle();
+        Assert.assertEquals(title, "Target : Expect More. Pay Less.");
+    }
 
     @Test
-    public void testRedCard (){
-        driver.findElement(By.linkText("REDcard")).click();
-    }
+    public void testRedCard () { driver.findElement(By.linkText("REDcard")).click(); }
 
     @Test
     public void testEssentials (){
@@ -143,9 +145,7 @@ public class HomePage extends CommonAPI {
     }
 
     @Test
-    public void testCart (){
-        driver.findElement(By.id("cart")).click();
-    }
+    public void testCart (){ driver.findElement(By.id("cart")).click(); }
 
     @Test
     public void testTopDeals (){
