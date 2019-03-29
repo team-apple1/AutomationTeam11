@@ -8,8 +8,39 @@
   <parameter name="browserName" value="chrome"/>
   <parameter name="cloudEnvName" value="browserstack"/>
   <parameter name="url" value="https://www.BBC.com/"/>
-  <test thread-count="5" verbose="0" name="BBC Home(failed)">
+  <test thread-count="5" verbose="0" name="BBC Test(failed)">
     <classes>
+      <class name="Contact.contactus">
+        <methods>
+          <include name="reportTechnicalIssueLink"/>
+          <include name="contact"/>
+          <include name="technicalIssueContactForm"/>
+          <include name="contactBBCNews"/>
+          <include name="setUp"/>
+          <include name="reportError"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Contact.contactus -->
+      <class name="Search.Searchbar">
+        <methods>
+          <include name="searchButton"/>
+          <include name="searchWeather"/>
+          <include name="searchBar"/>
+          <include name="searchBusiness"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Search.Searchbar -->
+      <class name="Signin.login">
+        <methods>
+          <include name="signInUserName"/>
+          <include name="signInLink"/>
+          <include name="signInPassword"/>
+          <include name="signInSubmit"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Signin.login -->
       <class name="Homepage.Mainpage">
         <methods>
           <include name="title"/>
@@ -45,11 +76,23 @@
           <include name="scienceNews"/>
           <include name="bbcTechFacebook"/>
           <include name="culture"/>
+          <include name="testSearchItemsSql"/>
           <include name="makeItDigital"/>
           <include name="faqs"/>
           <include name="future"/>
         </methods>
       </class> <!-- Homepage.Mainpage -->
+      <class name="Register.Registration">
+        <methods>
+          <include name="selectRegister"/>
+          <include name="submitRegistration"/>
+          <include name="enterInfo"/>
+          <include name="enterDob"/>
+          <include name="setUp"/>
+          <include name="selectAge"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Register.Registration -->
     </classes>
-  </test> <!-- BBC Home(failed) -->
+  </test> <!-- BBC Test(failed) -->
 </suite> <!-- Failed suite [BBC Automation Script ] -->

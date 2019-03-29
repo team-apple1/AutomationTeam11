@@ -1,18 +1,25 @@
 package Homepage;
+import Data.MySqlData;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.List;
+
+import static afu.org.checkerframework.checker.units.UnitsTools.s;
 
 public class Mainpage extends CommonAPI {
 
 
-    String url = "https://www.bbc.com/";
+    //String url = "https://www.bbc.com/";
     @Test //test1
     public void title() {
+        TestLogger.log("Test Title");
         String title = driver.getTitle();
         Assert.assertEquals(title, "BBC - Homepage");
     }
@@ -206,3 +213,8 @@ public class Mainpage extends CommonAPI {
     }
 
 }
+
+
+
+
+
