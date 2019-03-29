@@ -1,13 +1,11 @@
 package Products;
+
 import base.CommonAPI;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
+
 import org.testng.annotations.Test;
+
 
 public class SearchProducts extends CommonAPI{
 
@@ -62,6 +60,7 @@ public class SearchProducts extends CommonAPI{
     public void testGlasses () {
         driver.findElement(By.id("search")).sendKeys("glasses", Keys.ENTER);
     }
+
 
 
 }
