@@ -13,12 +13,12 @@
 
     <test name = "Target Home">
         <classes>
+            <class name="Home.HomePage"/>
+            <class name="RedCard.Redcard"/>
             <class name="Stores.SearchStores"/>
             <class name="ResultsPage.Filter"/>
             <class name="RegistriesandList.RegistriesListPage"/>
-            <class name="RedCard.Redcard"/>
             <class name="Products.SearchProducts"/>
-            <class name="Home.HomePage"/>
             <class name="Categories.ClickonCategories"/>
             <class name="Account.Accountpage"/>
         </classes>
