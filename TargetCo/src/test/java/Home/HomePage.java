@@ -2,31 +2,22 @@ package Home;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
-public class HomePage extends CommonAPI {
 
+public class HomePage extends CommonAPI  {
 
     @Test
-    public void testTopDeals (){
-        driver.findElement(By.xpath("//a[@href='#secondaryMenu']")).click();
-        driver.findElement(By.id("deals-topDeals")).click();
+    public void testTitle () {
+        TestLogger.log("Test Title");
+        String title = driver.getTitle();
+        Assert.assertEquals(title, "Target : Expect More. Pay Less.");
     }
 
     @Test
-    public void testWeeklyAd (){
-        driver.findElement(By.linkText("Weekly Ad")).click();
-    }
-
-    @Test
-    public void testRedCard (){
-        driver.findElement(By.linkText("REDcard")).click();
-    }
+    public void testRedCard () { driver.findElement(By.linkText("REDcard")).click(); }
 
     @Test
     public void testEssentials (){
@@ -60,7 +51,7 @@ public class HomePage extends CommonAPI {
 
     @Test
     public void testKids (){
-        driver.findElement(By.linkText("Kids'")).click();
+        driver.findElement(By.linkText("Kids’")).click();
     }
 
     @Test
@@ -71,6 +62,11 @@ public class HomePage extends CommonAPI {
     @Test
     public void testHome (){
         driver.findElement(By.linkText("Home")).click();
+    }
+
+    @Test
+    public void testWeeklyAd (){
+        driver.findElement(By.linkText("Weekly Ad")).click();
     }
 
     @Test
@@ -109,9 +105,7 @@ public class HomePage extends CommonAPI {
     }
 
     @Test
-    public void testClearance (){
-        driver.findElement(By.linkText("Clearance")).click();
-    }
+    public void testClearance (){ driver.findElement(By.linkText("Clearance")).click(); }
 
     @Test
     public void testPatio (){
@@ -129,18 +123,8 @@ public class HomePage extends CommonAPI {
     }
 
     @Test
-    public void testAds (){
-        driver.findElement(By.linkText("Internet-Based Ads")).click();
-    }
-
-    @Test
     public void testRights (){
         driver.findElement(By.linkText("CA Privacy Rights")).click();
-    }
-
-    @Test
-    public void testAct (){
-        driver.findElement(By.linkText("CA Supply Chain Act")).click();
     }
 
     @Test
@@ -149,8 +133,12 @@ public class HomePage extends CommonAPI {
     }
 
     @Test
-    public void testCart (){
-        driver.findElement(By.id("cart")).click();
+    public void testCart (){ driver.findElement(By.id("cart")).click(); }
+
+    @Test
+    public void testTopDeals (){
+        driver.findElement(By.xpath("//a[@href='#secondaryMenu']")).click();
+        driver.findElement(By.id("deals-topDeals")).click();
     }
 
 
