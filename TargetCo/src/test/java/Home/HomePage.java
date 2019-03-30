@@ -51,7 +51,7 @@ public class HomePage extends CommonAPI {
 
     @Test
     public void testKids (){
-        driver.findElement(By.linkText("Kids'")).click();
+        driver.findElement(By.linkText("Kids’")).click();
     }
 
     @Test
@@ -105,9 +105,7 @@ public class HomePage extends CommonAPI {
     }
 
     @Test
-    public void testClearance (){
-        driver.findElement(By.linkText("Clearance")).click();
-    }
+    public void testClearance (){ driver.findElement(By.linkText("Clearance")).click(); }
 
     @Test
     public void testPatio (){
@@ -125,18 +123,8 @@ public class HomePage extends CommonAPI {
     }
 
     @Test
-    public void testAds (){
-        driver.findElement(By.linkText("Internet-Based Ads")).click();
-    }
-
-    @Test
     public void testRights (){
         driver.findElement(By.linkText("CA Privacy Rights")).click();
-    }
-
-    @Test
-    public void testAct (){
-        driver.findElement(By.linkText("CA Supply Chain Act")).click();
     }
 
     @Test
