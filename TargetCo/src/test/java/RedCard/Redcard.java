@@ -1,18 +1,41 @@
 package RedCard;
 import base.CommonAPI;
+import data.MySQLData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
+
+import java.util.List;
+
+import static afu.org.checkerframework.checker.units.UnitsTools.s;
 
 
 public class Redcard extends CommonAPI{
 
     String url = "https://www.target.com/";
+
+
+    @Test(description = "mysql test")
+    public void testRedCardBenefitsSql() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> list = null;
+        try {
+            list = MySQLData.getRedCardBenefitsFromDB();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        for (String s : list) {
+            driver.findElement(By.linkText(s)).click();
+
+        }
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()) + " " + s);
+    }
+
 
     @Test
     public void testRedCardpage () {
