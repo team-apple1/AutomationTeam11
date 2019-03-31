@@ -38,8 +38,7 @@ public class Searchbar extends CommonAPI {
     public void searchBusiness() {
         driver.findElement(By.id("orb-search-q")).sendKeys("business", Keys.ENTER);
     }
-    @Test
-            (description = "mysql test")
+    @Test//mysql test
     public void testSearchItemsSql() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

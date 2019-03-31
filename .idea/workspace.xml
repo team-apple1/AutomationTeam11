@@ -14,19 +14,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Homepage/Mainpage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-582">
-              <caret line="220" column="37" selection-start-line="220" selection-start-column="37" selection-end-line="220" selection-end-column="37" />
+            <state relative-caret-position="812">
+              <caret line="295" column="5" lean-forward="true" selection-start-line="295" selection-start-column="5" selection-end-line="295" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2086#2087#0" expanded="true" />
                 <element signature="e#2152#2153#0" expanded="true" />
+                <element signature="e#2984#2985#0" expanded="true" />
+                <element signature="e#3051#3052#0" expanded="true" />
+                <element signature="e#3574#3575#0" expanded="true" />
+                <element signature="e#3638#3639#0" expanded="true" />
+                <element signature="e#3750#3751#0" expanded="true" />
+                <element signature="e#3810#3811#0" expanded="true" />
                 <element signature="e#6200#6201#0" expanded="true" />
                 <element signature="e#6266#6267#0" expanded="true" />
+                <element signature="e#6747#6748#0" expanded="true" />
+                <element signature="e#6811#6812#0" expanded="true" />
+                <element signature="e#6911#6912#0" expanded="true" />
+                <element signature="e#6975#6976#0" expanded="true" />
+                <element signature="e#7077#7078#0" expanded="true" />
+                <element signature="e#7141#7142#0" expanded="true" />
                 <element signature="e#6797#6798#0" expanded="true" />
                 <element signature="e#6856#6857#0" expanded="true" />
+                <element signature="e#7350#7351#0" expanded="true" />
+                <element signature="e#7414#7415#0" expanded="true" />
+                <element signature="e#7517#7518#0" expanded="true" />
+                <element signature="e#7576#7577#0" expanded="true" />
+                <element signature="e#7649#7650#0" expanded="true" />
+                <element signature="e#7710#7711#0" expanded="true" />
+                <element signature="e#7630#7631#0" expanded="true" />
+                <element signature="e#7748#7749#0" expanded="true" />
+                <element signature="e#8102#8103#0" expanded="true" />
+                <element signature="e#8362#8363#0" expanded="true" />
+                <element signature="e#8380#8381#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="223">
+              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#694#695#0" expanded="true" />
@@ -51,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Contact/contactus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+            <state relative-caret-position="157">
+              <caret line="29" column="98" selection-start-line="29" selection-start-column="98" selection-end-line="29" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Register/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="-336">
+              <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +133,10 @@
         <option value="$PROJECT_DIR$/BBC/src/test/resources/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ExcelData.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Excel/ExcelBBC.java" />
-        <option value="$PROJECT_DIR$/BBC/src/test/java/Homepage/Mainpage.java" />
-        <option value="$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Contact/contactus.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Register/Registration.java" />
+        <option value="$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java" />
+        <option value="$PROJECT_DIR$/BBC/src/test/java/Homepage/Mainpage.java" />
       </list>
     </option>
   </component>
@@ -272,7 +295,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554052424463" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554067639909" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -307,8 +330,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Registration.submitRegistration">
-    <configuration name="Mainpage.bbcTechTwitter" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Mainpage.advertiseWithUs">
+    <configuration name="Mainpage.advertiseWithUs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BBC" />
       <extension name="coverage">
         <pattern>
@@ -318,7 +341,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Homepage" />
       <option name="MAIN_CLASS_NAME" value="Homepage.Mainpage" />
-      <option name="METHOD_NAME" value="bbcTechTwitter" />
+      <option name="METHOD_NAME" value="advertiseWithUs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -326,7 +349,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mainpage.newsAlertSignup" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Mainpage.cookies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BBC" />
       <extension name="coverage">
         <pattern>
@@ -336,7 +359,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Homepage" />
       <option name="MAIN_CLASS_NAME" value="Homepage.Mainpage" />
-      <option name="METHOD_NAME" value="newsAlertSignup" />
+      <option name="METHOD_NAME" value="cookies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -344,17 +367,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Registration.submitRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Mainpage.fullVersionPrivacyPolicy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Register.*" />
+          <option name="PATTERN" value="Homepage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Register" />
-      <option name="MAIN_CLASS_NAME" value="Register.Registration" />
-      <option name="METHOD_NAME" value="submitRegistration" />
+      <option name="PACKAGE_NAME" value="Homepage" />
+      <option name="MAIN_CLASS_NAME" value="Homepage.Mainpage" />
+      <option name="METHOD_NAME" value="fullVersionPrivacyPolicy" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -362,17 +385,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Searchbar.searchButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Mainpage.fullVersionTermsOfUse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Search.*" />
+          <option name="PATTERN" value="Homepage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Search" />
-      <option name="MAIN_CLASS_NAME" value="Search.Searchbar" />
-      <option name="METHOD_NAME" value="searchButton" />
+      <option name="PACKAGE_NAME" value="Homepage" />
+      <option name="MAIN_CLASS_NAME" value="Homepage.Mainpage" />
+      <option name="METHOD_NAME" value="fullVersionTermsOfUse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -380,17 +403,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contactus.technicalIssueContactForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Mainpage.termsOfUse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Contact.*" />
+          <option name="PATTERN" value="Homepage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Contact" />
-      <option name="MAIN_CLASS_NAME" value="Contact.contactus" />
-      <option name="METHOD_NAME" value="technicalIssueContactForm" />
+      <option name="PACKAGE_NAME" value="Homepage" />
+      <option name="MAIN_CLASS_NAME" value="Homepage.Mainpage" />
+      <option name="METHOD_NAME" value="termsOfUse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -400,11 +423,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Registration.submitRegistration" />
-        <item itemvalue="TestNG.contactus.technicalIssueContactForm" />
-        <item itemvalue="TestNG.Searchbar.searchButton" />
-        <item itemvalue="TestNG.Mainpage.bbcTechTwitter" />
-        <item itemvalue="TestNG.Mainpage.newsAlertSignup" />
+        <item itemvalue="TestNG.Mainpage.advertiseWithUs" />
+        <item itemvalue="TestNG.Mainpage.cookies" />
+        <item itemvalue="TestNG.Mainpage.fullVersionTermsOfUse" />
+        <item itemvalue="TestNG.Mainpage.termsOfUse" />
+        <item itemvalue="TestNG.Mainpage.fullVersionPrivacyPolicy" />
       </list>
     </recent_temporary>
   </component>
@@ -422,35 +445,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Mainpage_russianLanguage - 2019.03.30 at 14h 17m 32s.xml">
-      <configuration name="Mainpage.russianLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Mainpage_urdusLanguage - 2019.03.30 at 14h 18m 39s.xml">
-      <configuration name="Mainpage.urdusLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Mainpage_urdusLanguage - 2019.03.30 at 14h 19m 50s.xml">
-      <configuration name="Mainpage.urdusLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Mainpage_kirundiLanguage - 2019.03.30 at 14h 20m 55s.xml">
-      <configuration name="Mainpage.kirundiLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Mainpage_newsAlertSignup - 2019.03.31 at 12h 23m 13s.xml">
-      <configuration name="Mainpage.newsAlertSignup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Mainpage_newsAlertSignup - 2019.03.31 at 12h 24m 16s.xml">
-      <configuration name="Mainpage.newsAlertSignup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Mainpage_bbcTechTwitter - 2019.03.31 at 12h 26m 34s.xml">
-      <configuration name="Mainpage.bbcTechTwitter" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Searchbar_searchButton - 2019.03.31 at 12h 29m 28s.xml">
-      <configuration name="Searchbar.searchButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="contactus_technicalIssueContactForm - 2019.03.31 at 12h 33m 51s.xml">
+    <history-entry file="contactus_technicalIssueContactForm - 2019.03.31 at 15h 34m 19s.xml">
       <configuration name="contactus.technicalIssueContactForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Registration_submitRegistration - 2019.03.31 at 12h 37m 55s.xml">
-      <configuration name="Registration.submitRegistration" configurationId="TestNG" />
+    <history-entry file="contactus_contactBBCNews - 2019.03.31 at 15h 35m 23s.xml">
+      <configuration name="contactus.contactBBCNews" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Registration_selectAge - 2019.03.31 at 15h 45m 09s.xml">
+      <configuration name="Registration.selectAge" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Registration_selectAge - 2019.03.31 at 15h 46m 20s.xml">
+      <configuration name="Registration.selectAge" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Searchbar_testSearchItemsSql - 2019.03.31 at 15h 50m 02s.xml">
+      <configuration name="Searchbar.testSearchItemsSql" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Mainpage_privacyPolicy - 2019.03.31 at 17h 11m 53s.xml">
+      <configuration name="Mainpage.privacyPolicy" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Mainpage_fullVersionPrivacyPolicy - 2019.03.31 at 17h 13m 48s.xml">
+      <configuration name="Mainpage.fullVersionPrivacyPolicy" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Mainpage_termsOfUse - 2019.03.31 at 17h 16m 48s.xml">
+      <configuration name="Mainpage.termsOfUse" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Mainpage_fullVersionTermsOfUse - 2019.03.31 at 17h 18m 34s.xml">
+      <configuration name="Mainpage.fullVersionTermsOfUse" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Mainpage_cookies - 2019.03.31 at 17h 21m 32s.xml">
+      <configuration name="Mainpage.cookies" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -654,26 +677,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Homepage/Mainpage.java">
+    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Contact/contactus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-582">
-          <caret line="220" column="37" selection-start-line="220" selection-start-column="37" selection-end-line="220" selection-end-column="37" />
+        <state relative-caret-position="157">
+          <caret line="29" column="98" selection-start-line="29" selection-start-column="98" selection-end-line="29" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2086#2087#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#6200#6201#0" expanded="true" />
-            <element signature="e#6266#6267#0" expanded="true" />
-            <element signature="e#6797#6798#0" expanded="true" />
-            <element signature="e#6856#6857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Register/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        <state relative-caret-position="223">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#694#695#0" expanded="true" />
@@ -684,22 +711,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Contact/contactus.java">
+    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Homepage/Mainpage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+        <state relative-caret-position="812">
+          <caret line="295" column="5" lean-forward="true" selection-start-line="295" selection-start-column="5" selection-end-line="295" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Register/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+            <element signature="e#2984#2985#0" expanded="true" />
+            <element signature="e#3051#3052#0" expanded="true" />
+            <element signature="e#3574#3575#0" expanded="true" />
+            <element signature="e#3638#3639#0" expanded="true" />
+            <element signature="e#3750#3751#0" expanded="true" />
+            <element signature="e#3810#3811#0" expanded="true" />
+            <element signature="e#6200#6201#0" expanded="true" />
+            <element signature="e#6266#6267#0" expanded="true" />
+            <element signature="e#6747#6748#0" expanded="true" />
+            <element signature="e#6811#6812#0" expanded="true" />
+            <element signature="e#6911#6912#0" expanded="true" />
+            <element signature="e#6975#6976#0" expanded="true" />
+            <element signature="e#7077#7078#0" expanded="true" />
+            <element signature="e#7141#7142#0" expanded="true" />
+            <element signature="e#6797#6798#0" expanded="true" />
+            <element signature="e#6856#6857#0" expanded="true" />
+            <element signature="e#7350#7351#0" expanded="true" />
+            <element signature="e#7414#7415#0" expanded="true" />
+            <element signature="e#7517#7518#0" expanded="true" />
+            <element signature="e#7576#7577#0" expanded="true" />
+            <element signature="e#7649#7650#0" expanded="true" />
+            <element signature="e#7710#7711#0" expanded="true" />
+            <element signature="e#7630#7631#0" expanded="true" />
+            <element signature="e#7748#7749#0" expanded="true" />
+            <element signature="e#8102#8103#0" expanded="true" />
+            <element signature="e#8362#8363#0" expanded="true" />
+            <element signature="e#8380#8381#0" expanded="true" />
           </folding>
         </state>
       </provider>

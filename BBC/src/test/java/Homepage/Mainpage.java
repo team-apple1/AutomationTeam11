@@ -121,7 +121,7 @@ public class Mainpage extends CommonAPI {
 
     @Test //test20
     public void latestBusinessNews() {
-        driver.findElement(By.xpath("//*[@id=\"page\"]/section[6]/div/div/div[2]/div/ul/li[1]/a/h3")).click();
+        driver.findElement(By.xpath("//*[@class='top-list-item__headline']")).click();
     }
 
     @Test  //test21
@@ -138,12 +138,12 @@ public class Mainpage extends CommonAPI {
 
     @Test //test23
     public void arabicLanguage() {
-        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[1]/a/span[1]")).click();
+        driver.findElement(By.xpath("//*[@title='Arabic service']")).click();
     }
 
     @Test //test24
     public void japaneseLanguage() {
-        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[10]/a/span[1]")).click();
+        driver.findElement(By.xpath("//*[@title='Japanese service']")).click();
     }
 
     @Test  //test25
@@ -230,17 +230,17 @@ public class Mainpage extends CommonAPI {
 
     @Test
     public void chineseLanguage() {
-        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[5]/a/span[1]")).click();
+        driver.findElement(By.xpath("//*[@title='Chinese service']")).click();
     }
 
     @Test
     public void HindiLanguage() {
-        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[8]/a/span[1]")).click();
+        driver.findElement(By.xpath("//*[@title='Hindi service']")).click();
     }
 
     @Test
     public void turkishLanguage() {
-        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[25]/a/span[1]")).click();
+        driver.findElement(By.xpath("//*[@title='Turkish service']")).click();
     }
 
     @Test
@@ -250,18 +250,52 @@ public class Mainpage extends CommonAPI {
 
     @Test
     public void pashtoLanguage() {
-        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[16]/a/span[1]")).click();
+        driver.findElement(By.xpath("//*[@title='Pashto service']")).click();
     }
 
     @Test
     public void russianLanguage() {
-        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[19]/a/span[1]")).click();
+        driver.findElement(By.xpath("//*[@title='Russian service']")).click();
     }
 
     @Test
     public void kirundiLanguage() {
-        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[12]/a/span[1]")).click();
+        driver.findElement(By.xpath("//*[@title='Kirundi service']")).click();
+    }
+
+    @Test
+    public void veitnameseLanguage() {
+        driver.findElement(By.xpath("//*[@title='Vietnamese']")).click();
+    }
+
+    @Test
+    public void privacyPolicy() {
+        driver.findElement(By.linkText("Privacy Policy")).click();
+    }
+
+    @Test
+    public void fullVersionPrivacyPolicy() {
+        driver.findElement(By.linkText("Privacy Policy")).click();
+        driver.findElement(By.linkText("View the full version of the BBC Privacy and Cookies Policy")).click();
+    }
+
+    @Test
+    public void termsOfUse() {
+        driver.findElement(By.linkText("Terms of Use")).click();
+    }
+
+    @Test
+    public void fullVersionTermsOfUse() {
+        driver.findElement(By.linkText("Terms of Use")).click();
+        driver.findElement(By.linkText("View the full version of the BBC Terms of Use")).click();
+
+    }
+    @Test
+    public void cookies(){
+    driver.findElement(By.linkText("Cookies")).click();
+    }
+    @Test
+    public void advertiseWithUs(){
+        driver.findElement(By.linkText("Advertise with us")).click();
     }
 }
-
-

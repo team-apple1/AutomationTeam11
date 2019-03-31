@@ -27,13 +27,13 @@ public class contactus extends CommonAPI {
     public void contactBBCNews() {
         driver.findElement(By.linkText("News")).click();
         driver.findElement(By.linkText("Tech")).click();
-        driver.findElement(By.xpath("//*[@id=\"bbc-news-services\"]/div/ul/li[4]/a")).click();
+        driver.findElement(By.xpath("//*[@class='blue-tit__list-item-link contact-us']")).click();
     }
     @Test
     public void reportTechnicalIssueLink() {
         driver.findElement(By.linkText("News")).click();
         driver.findElement(By.linkText("Tech")).click();
-        driver.findElement(By.xpath("//*[@id=\"bbc-news-services\"]/div/ul/li[4]/a")).click();
+        driver.findElement(By.xpath("//*[@class='blue-tit__list-item-link contact-us']")).click();
         driver.findElement(By.linkText("report a technical issue with the News website or app")).click();
     }
     @Test
@@ -43,7 +43,7 @@ public class contactus extends CommonAPI {
         TestLogger.log("Test Tech Link");
         driver.findElement(By.linkText("Tech")).click();
         TestLogger.log("Test News Services Link");
-        driver.findElement(By.xpath("//*[@id=\"bbc-news-services\"]/div/ul/li[4]/a")).click();
+        driver.findElement(By.xpath("//*[@class='blue-tit__list-item-link contact-us']")).click();
         TestLogger.log("Test Technical Issue Link");
         driver.findElement(By.linkText("report a technical issue with the News website or app")).click();
         TestLogger.log("Test Enter Full Name Using Form");
