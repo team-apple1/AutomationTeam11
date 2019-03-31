@@ -15,8 +15,6 @@ import static afu.org.checkerframework.checker.units.UnitsTools.s;
 
 public class Mainpage extends CommonAPI {
 
-
-    //String url = "https://www.bbc.com/";
     @Test //test1
     public void title() {
         TestLogger.log("Test Title");
@@ -27,6 +25,7 @@ public class Mainpage extends CommonAPI {
     //Testing site links
     @Test  //test2
     public void news() {
+        TestLogger.log("Test News Link");
         driver.findElement(By.linkText("News")).click();
 
     }
@@ -39,6 +38,7 @@ public class Mainpage extends CommonAPI {
 
     @Test  //test4
     public void sports() {
+        TestLogger.log("Test Sports Link");
         driver.findElement(By.linkText("Sport")).click();
     }
 
@@ -172,10 +172,15 @@ public class Mainpage extends CommonAPI {
 
     @Test  //test28 //failed
     public void newsAlertSignup() {
+        TestLogger.log("Test News Link");
         driver.findElement(By.linkText("News")).click();
+        TestLogger.log("Test Business Link");
         driver.findElement(By.linkText("Business")).click();
+        TestLogger.log("Test News Services");
         driver.findElement(By.xpath("//*[@id=\"bbc-news-services\"]/div/ul/li[3]/a")).click();
+        TestLogger.log("Test Sign up Link");
         driver.findElement(By.linkText("Sign up here")).click();
+        TestLogger.log("Input Information Test");
         driver.findElement(By.id("email")).sendKeys("Anonymous@gmail.com", Keys.ENTER);
     }
 
@@ -199,22 +204,64 @@ public class Mainpage extends CommonAPI {
 
     @Test  //test32
     public void bbcTechTwitter() {
+        TestLogger.log("Test News Link");
         driver.findElement(By.linkText("News")).click();
+        TestLogger.log("Test Tech Link");
         driver.findElement(By.linkText("Tech")).click();
+        TestLogger.log("Test Twitter Link");
         driver.findElement(By.linkText("Twitter")).click();
     }
 
     @Test  //test33
     public void bbcTechFacebook() {
+        TestLogger.log("Test News Link");
         driver.findElement(By.linkText("News")).click();
+        TestLogger.log("Test Tech Link");
         driver.findElement(By.linkText("Tech")).click();
+        TestLogger.log("Test Facebook Link");
         driver.findElement(By.linkText("Facebook")).click();
 
     }
 
+    @Test
+    public void spanishLanguage() {
+        driver.findElement(By.linkText("Spanish")).click();
+    }
+
+    @Test
+    public void chineseLanguage() {
+        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[5]/a/span[1]")).click();
+    }
+
+    @Test
+    public void HindiLanguage() {
+        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[8]/a/span[1]")).click();
+    }
+
+    @Test
+    public void turkishLanguage() {
+        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[25]/a/span[1]")).click();
+    }
+
+    @Test
+    public void urduLanguage() {
+        driver.findElement(By.linkText("Urdu")).click();
+    }
+
+    @Test
+    public void pashtoLanguage() {
+        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[16]/a/span[1]")).click();
+    }
+
+    @Test
+    public void russianLanguage() {
+        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[19]/a/span[1]")).click();
+    }
+
+    @Test
+    public void kirundiLanguage() {
+        driver.findElement(By.xpath("//*[@id=\"page\"]/section[14]/div/div/div[2]/ul/li[12]/a/span[1]")).click();
+    }
 }
-
-
-
 
 

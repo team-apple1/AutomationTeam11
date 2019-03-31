@@ -10,86 +10,37 @@
   <parameter name="url" value="https://www.BBC.com/"/>
   <test thread-count="5" verbose="0" name="BBC Test(failed)">
     <classes>
+      <class name="Homepage.Mainpage">
+        <methods>
+          <include name="newsAlertSignup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="news"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- Homepage.Mainpage -->
       <class name="Contact.contactus">
         <methods>
-          <include name="reportTechnicalIssueLink"/>
-          <include name="contact"/>
-          <include name="technicalIssueContactForm"/>
-          <include name="contactBBCNews"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
           <include name="setUp"/>
+          <include name="startExtent"/>
           <include name="reportError"/>
           <include name="cleanUp"/>
         </methods>
       </class> <!-- Contact.contactus -->
-      <class name="Search.Searchbar">
-        <methods>
-          <include name="searchButton"/>
-          <include name="searchWeather"/>
-          <include name="searchBar"/>
-          <include name="searchBusiness"/>
-          <include name="setUp"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- Search.Searchbar -->
-      <class name="Signin.login">
-        <methods>
-          <include name="signInUserName"/>
-          <include name="signInLink"/>
-          <include name="signInPassword"/>
-          <include name="signInSubmit"/>
-          <include name="setUp"/>
-          <include name="cleanUp"/>
-        </methods>
-      </class> <!-- Signin.login -->
-      <class name="Homepage.Mainpage">
-        <methods>
-          <include name="title"/>
-          <include name="bbcTechTwitter"/>
-          <include name="about"/>
-          <include name="usCanadaNews"/>
-          <include name="persianLanguage"/>
-          <include name="shop"/>
-          <include name="cleanUp"/>
-          <include name="capital"/>
-          <include name="tv"/>
-          <include name="localWeather"/>
-          <include name="weather"/>
-          <include name="chicagoWeather"/>
-          <include name="japaneseLanguage"/>
-          <include name="latestBusinessNews"/>
-          <include name="contact"/>
-          <include name="businessNews"/>
-          <include name="setUp"/>
-          <include name="reel"/>
-          <include name="food"/>
-          <include name="sportsCricket"/>
-          <include name="sports"/>
-          <include name="arabicLanguage"/>
-          <include name="mobileApp"/>
-          <include name="techNews"/>
-          <include name="news"/>
-          <include name="trustBBCNews"/>
-          <include name="travel"/>
-          <include name="newsAlertSignup"/>
-          <include name="nature"/>
-          <include name="twitterLink"/>
-          <include name="scienceNews"/>
-          <include name="bbcTechFacebook"/>
-          <include name="culture"/>
-          <include name="testSearchItemsSql"/>
-          <include name="makeItDigital"/>
-          <include name="faqs"/>
-          <include name="future"/>
-        </methods>
-      </class> <!-- Homepage.Mainpage -->
       <class name="Register.Registration">
         <methods>
-          <include name="selectRegister"/>
           <include name="submitRegistration"/>
-          <include name="enterInfo"/>
-          <include name="enterDob"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
           <include name="setUp"/>
-          <include name="selectAge"/>
+          <include name="startExtent"/>
           <include name="cleanUp"/>
         </methods>
       </class> <!-- Register.Registration -->

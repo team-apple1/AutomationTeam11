@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class contactus extends CommonAPI {
     @Test
@@ -37,14 +38,23 @@ public class contactus extends CommonAPI {
     }
     @Test
     public void technicalIssueContactForm(){
+        TestLogger.log("Test News Link");
         driver.findElement(By.linkText("News")).click();
+        TestLogger.log("Test Tech Link");
         driver.findElement(By.linkText("Tech")).click();
+        TestLogger.log("Test News Services Link");
         driver.findElement(By.xpath("//*[@id=\"bbc-news-services\"]/div/ul/li[4]/a")).click();
+        TestLogger.log("Test Technical Issue Link");
         driver.findElement(By.linkText("report a technical issue with the News website or app")).click();
+        TestLogger.log("Test Enter Full Name Using Form");
         driver.findElement(By.id("fullName")).sendKeys("Anonymous", Keys.TAB);
+        TestLogger.log("Test Enter Email Using Form");
         driver.findElement(By.id("email")).sendKeys("Anonymous@gmail.com", Keys.TAB);
+        TestLogger.log("Test Enter town Using Form");
         driver.findElement(By.id("town")).sendKeys("USA", Keys.TAB);
+        TestLogger.log("Test Enter Message Using Form");
         driver.findElement(By.id("message")).sendKeys("There is a technical issue", Keys.TAB);
+        TestLogger.log("Test Submit Form Link");
         driver.findElement(By.id("submit")).click();
     }
 }
