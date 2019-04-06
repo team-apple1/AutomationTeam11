@@ -11,16 +11,17 @@
     <parameter name="browserVersion" value="30.0"/>
     <parameter name="url" value="https://www.target.com/"/>
 
-    <test name = "Target Home">
+    <test name = "Target home">
         <classes>
-            <class name="Home.HomePage"/>
-            <class name="RedCard.Redcard"/>
-            <class name="Stores.SearchStores"/>
-            <class name="ResultsPage.Filter"/>
-            <class name="RegistriesandList.RegistriesListPage"/>
-            <class name="Products.SearchProducts"/>
-            <class name="Categories.ClickonCategories"/>
-            <class name="Account.Accountpage"/>
+            <class name="home.HomePage"/>
+            <class name="redcard.Redcard"/>
+            <class name="stores.SearchStores"/>
+            <class name="resultspage.Filter"/>
+            <class name="registriesandlist.RegistriesListPage"/>
+            <class name="products.SearchProducts"/>
+            <class name="pharmacy.Pharmacy"/>
+            <class name="categories.ClickonCategories"/>
+            <class name="account.Accountpage"/>
         </classes>
     </test>
 
