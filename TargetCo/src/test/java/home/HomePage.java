@@ -1,12 +1,13 @@
-package home;
+package Home;
 import base.CommonAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 
-public class HomePage extends CommonAPI  {
+public class HomePage extends CommonAPI {
 
     @Test
     public void testTitle () {
@@ -59,8 +60,23 @@ public class HomePage extends CommonAPI  {
     }
 
     @Test
+    public void testHome (){
+        driver.findElement(By.linkText("Home")).click();
+    }
+
+    @Test
     public void testWeeklyAd (){
         driver.findElement(By.linkText("Weekly Ad")).click();
+    }
+
+    @Test
+    public void testFurniture (){
+        driver.findElement(By.linkText("Furniture")).click();
+    }
+
+    @Test
+    public void testPat (){
+        driver.findElement(By.linkText("Patio & Garden")).click();
     }
 
     @Test
@@ -84,7 +100,17 @@ public class HomePage extends CommonAPI  {
     }
 
     @Test
+    public void testGrocery (){
+        driver.findElement(By.linkText("Grocery")).click();
+    }
+
+    @Test
     public void testClearance (){ driver.findElement(By.linkText("Clearance")).click(); }
+
+    @Test
+    public void testPatio (){
+        driver.findElement(By.linkText("Patio & Garden")).click();
+    }
 
     @Test
     public void testTerms (){
@@ -97,15 +123,17 @@ public class HomePage extends CommonAPI  {
     }
 
     @Test
+    public void testRights (){
+        driver.findElement(By.linkText("CA Privacy Rights")).click();
+    }
+
+    @Test
     public void testPrivacy (){
         driver.findElement(By.linkText("Privacy")).click();
     }
 
     @Test
     public void testCart (){ driver.findElement(By.id("cart")).click(); }
-
-    @Test
-    public void testShip (){ driver.findElement(By.id("ship")).click(); }
 
     @Test
     public void testTopDeals (){

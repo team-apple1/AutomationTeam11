@@ -1,4 +1,4 @@
-package excel;
+package Excel;
 
 import databases.ExcelData;
 import org.openqa.selenium.By;
@@ -38,18 +38,18 @@ public class ExcelTarget
     public Object[][] TestDataFeed()
     {
 
-        ExcelData config = new ExcelData("C:\\Users\\Manju\\IdeaProjects\\AutomationTeam11-\\TargetCo\\src\\test\\resources\\products.xlsx");
+        ExcelData config = new ExcelData("C:\\Users\\Manju\\IdeaProjects\\AutomationTeam11-\\TargetCo\\src\\test\\resources\\Products.xlsx");
 
         int rows = config.getRowCount(0);
 
-        Object[][] products = new Object[rows][1];
+        Object[][] credentials = new Object[rows][1];
 
         for(int i=0;i<rows;i++)
         {
-            products[i][0] = config.getData(0, i, 0);
+            credentials[i][0] = config.getData(0, i, 0);
 
         }
 
-        return products;
+        return credentials;
     }
 }

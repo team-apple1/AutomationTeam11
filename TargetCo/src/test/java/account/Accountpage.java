@@ -1,7 +1,10 @@
-package account;
+package Account;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
 
 public class Accountpage extends CommonAPI {
@@ -27,15 +30,9 @@ public class Accountpage extends CommonAPI {
     }
 
     @Test
-    public void testButton (){
+    public void testGiftCards (){
         driver.findElement(By.id("account")).click();
-        driver.findElement(By.linkText("Sign in")).click();
-        driver.findElement(By.xpath("//button[contains(text(),'Sign in')]")).click();
-    }
-
-    @Test
-    public void testAcc (){
-        driver.findElement(By.id("account")).click();
+        driver.findElement(By.linkText("Gift Cards")).click();
     }
 
     @Test
@@ -56,45 +53,6 @@ public class Accountpage extends CommonAPI {
         driver.findElement(By.linkText("Sign in")).click();
         driver.findElement(By.id("username")).sendKeys("jrondo@yahoo.com", Keys.ENTER);
         driver.findElement(By.id("password")).sendKeys("qwe321", Keys.ENTER);
-        driver.findElement(By.xpath("//button[contains(text(),'Sign in')]")).click();
-    }
-
-    @Test
-    public void testSignIn2 (){
-        driver.findElement(By.id("account")).click();
-        driver.findElement(By.linkText("Sign in")).click();
-        driver.findElement(By.id("username")).sendKeys("krondo@yahoo.com", Keys.ENTER);
-        driver.findElement(By.id("password")).sendKeys("qwe321", Keys.ENTER);
-        driver.findElement(By.xpath("//button[contains(text(),'Sign in')]")).click();
-    }
-
-    @Test
-    public void testSignIn3 (){
-        driver.findElement(By.id("account")).click();
-        driver.findElement(By.linkText("Sign in")).click();
-        driver.findElement(By.id("username")).sendKeys("prondo@nbc.com", Keys.ENTER);
-        driver.findElement(By.id("password")).sendKeys("qwe321", Keys.ENTER);
-        driver.findElement(By.xpath("//button[contains(text(),'Sign in')]")).click();
-    }
-
-    @Test
-    public void testUsername (){
-        driver.findElement(By.id("account")).click();
-        driver.findElement(By.linkText("Sign in")).click();
-        driver.findElement(By.id("username")).sendKeys("mrahman@espn.com", Keys.ENTER);
-    }
-
-    @Test
-    public void testPassword (){
-        driver.findElement(By.id("account")).click();
-        driver.findElement(By.linkText("Sign in")).click();
-        driver.findElement(By.id("password")).sendKeys("qwe321", Keys.ENTER);
-    }
-
-    @Test
-    public void testSignInButton (){
-        driver.findElement(By.id("account")).click();
-        driver.findElement(By.linkText("Sign in")).click();
         driver.findElement(By.xpath("//button[contains(text(),'Sign in')]")).click();
     }
 }

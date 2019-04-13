@@ -1,4 +1,4 @@
-package categories;
+package Categories;
 import base.CommonAPI;
 import data.MySQLData;
 import org.openqa.selenium.By;
@@ -97,23 +97,5 @@ public class ClickonCategories extends CommonAPI{
         driver.findElement(By.linkText("Categories")).click();
         driver.findElement(By.linkText("School & Office Supplies")).click();
         driver.findElement(By.linkText("Explore all")).click();
-    }
-
-    @Test
-    public void testSchool (){
-        driver.findElement(By.linkText("Categories")).click();
-        driver.findElement(By.linkText("School & Office Supplies")).click();
-    }
-
-    @Test
-    public void testMusic (){
-        driver.findElement(By.linkText("Categories")).click();
-        driver.findElement(By.linkText("Musical Instruments")).click();
-    }
-
-    @Test
-    public void testGrocery (){
-        driver.findElement(By.linkText("Categories")).click();
-        driver.findElement(By.linkText("Grocery")).click();
     }
 }

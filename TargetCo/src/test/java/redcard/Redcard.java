@@ -1,8 +1,9 @@
-package redcard;
+package RedCard;
 import base.CommonAPI;
 import data.MySQLData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
@@ -58,17 +59,6 @@ public class Redcard extends CommonAPI{
         driver.findElement(By.linkText("REDcard")).click();
         driver.findElement(By.linkText("Manage your REDcard")).click();
     }
-
-    @Test
-    public void testCreditCardSignUp () {
-        TestLogger.log("Test Redcard Link");
-        driver.findElement(By.linkText("REDcard")).click();
-        TestLogger.log("Test RedCreditCard Application Link");
-        driver.findElement(By.linkText("Apply for credit online")).click();
-        TestLogger.log("Test Apply Now Link");
-        driver.findElement(By.xpath("//button[contains(text(),'apply now')]")).click();
-    }
-
 
     @Test
     public void testPriv () {

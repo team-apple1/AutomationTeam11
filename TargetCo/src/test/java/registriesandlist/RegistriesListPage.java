@@ -1,4 +1,4 @@
-package registriesandlist;
+package RegistriesandList;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -22,7 +22,7 @@ public class RegistriesListPage extends CommonAPI {
     @Test
     public void testFeedback (){
         driver.findElement(By.linkText("Registries & Lists")).click();
-        driver.findElement(By.linkText("pharmacy")).click();
+        driver.findElement(By.linkText(" restock")).click();
         driver.findElement(By.xpath("//button[contains(text(),'feedback')]")).click();
         driver.findElement(By.linkText("website feedback")).click();
         driver.findElement(By.id("textArea160610")).sendKeys("you guys have a great website", Keys.ENTER);
@@ -75,4 +75,7 @@ public class RegistriesListPage extends CommonAPI {
         driver.findElement(By.linkText("Registries & Lists")).click();
         driver.findElement(By.xpath("//button[contains(text(),'find a class list')]")).click();
     }
+
+
+
 }
