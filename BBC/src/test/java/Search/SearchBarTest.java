@@ -1,9 +1,13 @@
 package Search;
 
-import Data.MySqlData;
+import data.MySqlData;
 import base.CommonAPI;
+import org.testng.Assert;
+import searchdata.SearchBar;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
@@ -11,32 +15,46 @@ import java.util.List;
 
 import static afu.org.checkerframework.checker.units.UnitsTools.s;
 
-public class Searchbar extends CommonAPI {
-    @Test
-    public void searchBar() {
-        driver.findElement(By.id("orb-search-q")).sendKeys("climatechange", Keys.ENTER);
+public class SearchBarTest extends CommonAPI {
+    @BeforeMethod
+    public void initialize() {
+        searchObj = PageFactory.initElements(driver, SearchBar.class);
     }
 
+    SearchBar searchObj = null;
+
+    @Test
+   public void search1(){
+        searchObj.climateChangeSearch();
+        String title = driver.getTitle();
+        Assert.assertEquals(title, "BBC - Search results for climate change");
+
+}
     @Test
     public void searchButton() {
-        TestLogger.log("Test search for Technology");
-        driver.findElement(By.id("orb-search-q")).sendKeys("technology");
-        TestLogger.log("Test click search button");
-        driver.findElement(By.id("orb-search-button")).click();
+        searchObj.searchButton();
+        String title = driver.getTitle();
+        Assert.assertEquals(title, "BBC - Homepage");
     }
 
     @Test
     public void searchWeather() {
-        driver.findElement(By.id("orb-search-q")).sendKeys("weather", Keys.ENTER);
+        searchObj.searchWeather();
+        String title = driver.getTitle();
+        Assert.assertEquals(title, "BBC - Search results for weather");
     }
     @Test
     public void searchRadio() {
-        driver.findElement(By.id("orb-search-q")).sendKeys("radio", Keys.ENTER);
+        searchObj.searchRadio();
+        String title = driver.getTitle();
+        Assert.assertEquals(title, "BBC - Search results for radio");
     }
 
     @Test
     public void searchBusiness() {
-        driver.findElement(By.id("orb-search-q")).sendKeys("business", Keys.ENTER);
+        searchObj.searchBusiness();
+        String title = driver.getTitle();
+        Assert.assertEquals(title, "BBC - Search results for business");
     }
     @Test//mysql test
     public void testSearchItemsSql() {

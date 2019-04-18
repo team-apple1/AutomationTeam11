@@ -14,11 +14,11 @@
     <test name = "BBC Test">
         <classes>
 
-         <class name="Homepage.Mainpage"/>
-            <class name="Contact.contactus"/>
-            <class name="Register.Registration"/>
-            <class name="Search.Searchbar"/>
-            <class name="Signin.login"/>
+         <class name="Homepage.MainTest"/>
+            <class name="Contact.ContactTest"/>
+            <class name="Register.RegistrationTest"/>
+            <class name="Search.SearchBarTest"/>
+            <class name="Signin.LoginTest"/>
         </classes>
     </test>
 

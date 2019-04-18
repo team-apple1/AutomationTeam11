@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BBC" />
         <module name="Generic" />
+        <module name="TargetCo" />
       </profile>
     </annotationProcessing>
   </component>
