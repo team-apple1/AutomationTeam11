@@ -339,8 +339,7 @@ public class MainTest extends CommonAPI {
 
     @Test
     public void fullVersionTermsOfUse() {
-        driver.findElement(By.linkText("Terms of Use")).click();
-        driver.findElement(By.linkText("View the full version of the BBC Terms of Use")).click();
+       homePageObj.clickOnFullTermsOfUse();
         String title =driver.getTitle();
         Assert.assertEquals(title,"Terms of Use for the BBC’s digital services - Using the BBC");
 

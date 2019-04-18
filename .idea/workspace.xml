@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b29adef7-85e3-4bde-a4e2-3009522ee671" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BBC/src/main/java/homepagedata/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/src/main/java/Data/MySqlData.java" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/src/main/java/data/MySqlData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/src/main/java/HomepageData/HomepageData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/src/test/java/Contact/contactus.java" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/src/test/java/Contact/ContactTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/src/test/java/Homepage/Mainpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/src/test/java/Register/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/src/test/java/Register/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/src/test/java/Search/SearchBarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/src/test/java/Signin/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/src/test/java/Signin/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/src/test/java/resources/BBCTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/src/test/resources/BBCTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/src/test/resources/BBCTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/classes/Data/MongoDbData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/classes/Data/MySqlData.class" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/target/classes/Data/MySqlData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/classes/HomepageData/HomepageData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/BBCTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/target/test-classes/BBCTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/Contact/contactus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/Homepage/Mainpage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/Homepage/Mainpage$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/Homepage/Mainpage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/Register/Registration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/Search/Searchbar$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/Search/Searchbar$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/Search/Searchbar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BBC/target/test-classes/Signin/login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetCo/src/test/java/Account/Accountpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/src/test/java/Account/Accountpage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetCo/src/test/java/Categories/ClickonCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/src/test/java/Categories/ClickonCategories.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetCo/src/test/java/Excel/ExcelTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/src/test/java/Excel/ExcelTarget.java" afterDir="false" />
@@ -50,7 +25,6 @@
       <change beforePath="$PROJECT_DIR$/TargetCo/target/test-classes/RegistriesandList/RegistriesListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/target/test-classes/RegistriesandList/RegistriesListPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetCo/target/test-classes/ResultsPage/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/target/test-classes/ResultsPage/Filter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetCo/target/test-classes/Stores/SearchStores.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/target/test-classes/Stores/SearchStores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="53" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="53" />
+            <state relative-caret-position="126">
+              <caret line="341" column="43" selection-start-line="341" selection-start-column="43" selection-end-line="341" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#410#411#0" expanded="true" />
@@ -99,11 +73,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Contact/ContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-421">
+            <state relative-caret-position="374">
               <caret line="24" column="58" selection-start-line="23" selection-start-column="7" selection-end-line="24" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BBC/src/main/java/homepagedata/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4535">
+              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,7 +166,6 @@
         <option value="$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Homepage/Mainpage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java" />
         <option value="$PROJECT_DIR$/BBC/src/main/java/homepagedata/HomePage.java" />
         <option value="$PROJECT_DIR$/BBC/src/main/java/contactdata/Contact.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Contact/ContactTest.java" />
@@ -190,6 +175,7 @@
         <option value="$PROJECT_DIR$/BBC/src/test/java/Search/SearchBarTest.java" />
         <option value="$PROJECT_DIR$/BBC/src/main/java/signindata/Login.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Signin/LoginTest.java" />
+        <option value="$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java" />
       </list>
     </option>
   </component>
@@ -473,7 +459,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555556115295" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555556368691" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/AutomationTeam11" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -509,7 +495,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactTest.technicalIssueContactFormTest">
+  <component name="RunManager" selected="TestNG.MainTest.fullVersionTermsOfUse">
     <configuration name="ContactTest.technicalIssueContactFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BBC" />
       <extension name="coverage">
@@ -521,24 +507,6 @@
       <option name="PACKAGE_NAME" value="Contact" />
       <option name="MAIN_CLASS_NAME" value="Contact.ContactTest" />
       <option name="METHOD_NAME" value="technicalIssueContactFormTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.signInLink" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Signin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Signin" />
-      <option name="MAIN_CLASS_NAME" value="Signin.LoginTest" />
-      <option name="METHOD_NAME" value="signInLink" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -600,13 +568,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.fullVersionTermsOfUse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homepage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homepage" />
+      <option name="MAIN_CLASS_NAME" value="Homepage.MainTest" />
+      <option name="METHOD_NAME" value="fullVersionTermsOfUse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MainTest.fullVersionTermsOfUse" />
         <item itemvalue="TestNG.ContactTest.technicalIssueContactFormTest" />
         <item itemvalue="TestNG.LoginTest.signInSubmit" />
         <item itemvalue="TestNG.LoginTest.signInPassword" />
         <item itemvalue="TestNG.LoginTest.signInUserName" />
-        <item itemvalue="TestNG.LoginTest.signInLink" />
       </list>
     </recent_temporary>
   </component>
@@ -624,9 +610,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchBarTest_search1 - 2019.04.17 at 22h 06m 30s.xml">
-      <configuration name="SearchBarTest.search1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SearchBarTest_searchButton - 2019.04.17 at 22h 30m 44s.xml">
       <configuration name="SearchBarTest.searchButton" configurationId="TestNG" />
     </history-entry>
@@ -653,6 +636,9 @@
     </history-entry>
     <history-entry file="LoginTest_signInSubmit - 2019.04.17 at 22h 51m 06s.xml">
       <configuration name="LoginTest.signInSubmit" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactTest_technicalIssueContactFormTest - 2019.04.17 at 22h 54m 01s.xml">
+      <configuration name="ContactTest.technicalIssueContactFormTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -681,7 +667,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.22340426" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.22267206" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -836,16 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/main/java/homepagedata/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Register/RegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -899,20 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="53" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#7624#7625#0" expanded="true" />
-            <element signature="e#7670#7671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BBC/src/main/java/signindata/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -951,10 +913,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Contact/ContactTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421">
+        <state relative-caret-position="374">
           <caret line="24" column="58" selection-start-line="23" selection-start-column="7" selection-end-line="24" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBC/src/main/java/homepagedata/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4535">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="341" column="43" selection-start-line="341" selection-start-column="43" selection-end-line="341" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#7624#7625#0" expanded="true" />
+            <element signature="e#7670#7671#0" expanded="true" />
           </folding>
         </state>
       </provider>
