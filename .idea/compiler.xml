@@ -9,6 +9,7 @@
         <module name="BBC" />
         <module name="Generic" />
         <module name="TargetCo" />
+        <module name="Twitter" />
       </profile>
     </annotationProcessing>
   </component>

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b29adef7-85e3-4bde-a4e2-3009522ee671" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetCo/src/test/java/Account/Accountpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/src/test/java/Account/Accountpage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetCo/src/test/java/Categories/ClickonCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/src/test/java/Categories/ClickonCategories.java" afterDir="false" />
@@ -25,12 +28,14 @@
       <change beforePath="$PROJECT_DIR$/TargetCo/target/test-classes/RegistriesandList/RegistriesListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/target/test-classes/RegistriesandList/RegistriesListPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetCo/target/test-classes/ResultsPage/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/target/test-classes/ResultsPage/Filter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetCo/target/test-classes/Stores/SearchStores.class" beforeDir="false" afterPath="$PROJECT_DIR$/TargetCo/target/test-classes/Stores/SearchStores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/BBC/target/" />
     <ignored path="$PROJECT_DIR$/TargetCo/target/" />
+    <ignored path="$PROJECT_DIR$/Twitter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,45 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="341" column="43" selection-start-line="341" selection-start-column="43" selection-end-line="341" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#7624#7625#0" expanded="true" />
-                <element signature="e#7670#7671#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Signin/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Contact/ContactTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="58" selection-start-line="23" selection-start-column="7" selection-end-line="24" selection-end-column="58" />
+            <state relative-caret-position="-3104">
+              <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,10 +57,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BBC/src/main/java/homepagedata/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/Twitter/src/main/auth/auth.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4535">
-              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/client/base/BaseTwitterClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,10 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BBC/src/main/java/contactdata/Contact.java">
+        <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/client/tweets/TweetsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-948">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="344">
+              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BBC/src/main/java/signindata/Login.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/api/tests/TweetsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+            <state relative-caret-position="361">
+              <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,7 +145,6 @@
         <option value="$PROJECT_DIR$/BBC/src/test/java/Register/Registration.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Search/Searchbar.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Homepage/Mainpage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/BBC/src/main/java/homepagedata/HomePage.java" />
         <option value="$PROJECT_DIR$/BBC/src/main/java/contactdata/Contact.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Contact/ContactTest.java" />
@@ -175,6 +154,13 @@
         <option value="$PROJECT_DIR$/BBC/src/test/java/Search/SearchBarTest.java" />
         <option value="$PROJECT_DIR$/BBC/src/main/java/signindata/Login.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Signin/LoginTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Twitter/pom.xml" />
+        <option value="$PROJECT_DIR$/Twitter/src/main/auth/auth.properties" />
+        <option value="$PROJECT_DIR$/Twitter/src/main/java/client/BaseTwitterClient.java" />
+        <option value="$PROJECT_DIR$/Twitter/src/main/java/client/base/BaseTwitterClient.java" />
+        <option value="$PROJECT_DIR$/Twitter/src/main/java/client/tweets/TweetsClient.java" />
+        <option value="$PROJECT_DIR$/Twitter/src/test/java/api/tests/TweetsTest.java" />
         <option value="$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java" />
       </list>
     </option>
@@ -208,6 +194,9 @@
     <option name="width" value="516" />
     <option name="height" value="142" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -231,12 +220,6 @@
               <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
               <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,59 +228,6 @@
               <item name="BBC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="contactdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homepagedata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="registrationdata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="searchdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
@@ -313,15 +243,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
@@ -344,113 +265,27 @@
             <path>
               <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Signin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="BBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetCo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetCo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetCo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetCo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetCo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetCo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationTeam11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationTeam11" type="462c0819:PsiDirectoryNode" />
-              <item name="TargetCo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -459,9 +294,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555556368691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555624519345" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AutomationTeam11" />
+    <property name="last_opened_file_path" value="$USER_HOME$/RestAssuredDemo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -495,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MainTest.fullVersionTermsOfUse">
+  <component name="RunManager" selected="TestNG.TweetsTest.testUserCannotTweetTheSameTweetTwiceInARow">
     <configuration name="ContactTest.technicalIssueContactFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BBC" />
       <extension name="coverage">
@@ -507,60 +342,6 @@
       <option name="PACKAGE_NAME" value="Contact" />
       <option name="MAIN_CLASS_NAME" value="Contact.ContactTest" />
       <option name="METHOD_NAME" value="technicalIssueContactFormTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.signInPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Signin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Signin" />
-      <option name="MAIN_CLASS_NAME" value="Signin.LoginTest" />
-      <option name="METHOD_NAME" value="signInPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.signInSubmit" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Signin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Signin" />
-      <option name="MAIN_CLASS_NAME" value="Signin.LoginTest" />
-      <option name="METHOD_NAME" value="signInSubmit" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.signInUserName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Signin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Signin" />
-      <option name="MAIN_CLASS_NAME" value="Signin.LoginTest" />
-      <option name="METHOD_NAME" value="signInUserName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -586,13 +367,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TweetsTest.testGetUserTimeline" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.TweetsTest" />
+      <option name="METHOD_NAME" value="testGetUserTimeline" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweetsTest.testUserCanTweet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.TweetsTest" />
+      <option name="METHOD_NAME" value="testUserCanTweet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweetsTest.testUserCannotTweetTheSameTweetTwiceInARow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.TweetsTest" />
+      <option name="METHOD_NAME" value="testUserCannotTweetTheSameTweetTwiceInARow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TweetsTest.testUserCannotTweetTheSameTweetTwiceInARow" />
+        <item itemvalue="TestNG.TweetsTest.testUserCanTweet" />
+        <item itemvalue="TestNG.TweetsTest.testGetUserTimeline" />
         <item itemvalue="TestNG.MainTest.fullVersionTermsOfUse" />
         <item itemvalue="TestNG.ContactTest.technicalIssueContactFormTest" />
-        <item itemvalue="TestNG.LoginTest.signInSubmit" />
-        <item itemvalue="TestNG.LoginTest.signInPassword" />
-        <item itemvalue="TestNG.LoginTest.signInUserName" />
       </list>
     </recent_temporary>
   </component>
@@ -610,21 +445,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchBarTest_searchButton - 2019.04.17 at 22h 30m 44s.xml">
-      <configuration name="SearchBarTest.searchButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchBarTest_searchButton - 2019.04.17 at 22h 31m 53s.xml">
-      <configuration name="SearchBarTest.searchButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchBarTest_searchButton - 2019.04.17 at 22h 32m 34s.xml">
-      <configuration name="SearchBarTest.searchButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchBarTest_searchWeather - 2019.04.17 at 22h 34m 52s.xml">
-      <configuration name="SearchBarTest.searchWeather" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchBarTest_searchBusiness - 2019.04.17 at 22h 37m 26s.xml">
-      <configuration name="SearchBarTest.searchBusiness" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTest_signInLink - 2019.04.17 at 22h 44m 40s.xml">
       <configuration name="LoginTest.signInLink" configurationId="TestNG" />
     </history-entry>
@@ -639,6 +459,21 @@
     </history-entry>
     <history-entry file="ContactTest_technicalIssueContactFormTest - 2019.04.17 at 22h 54m 01s.xml">
       <configuration name="ContactTest.technicalIssueContactFormTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest_fullVersionTermsOfUse - 2019.04.17 at 22h 59m 43s.xml">
+      <configuration name="MainTest.fullVersionTermsOfUse" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TweetsTest_testGetUserTimeline - 2019.04.18 at 17h 31m 40s.xml">
+      <configuration name="TweetsTest.testGetUserTimeline" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TweetsTest_testUserCanTweet - 2019.04.18 at 17h 34m 03s.xml">
+      <configuration name="TweetsTest.testUserCanTweet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TweetsTest_testUserCanTweet - 2019.04.18 at 17h 38m 45s.xml">
+      <configuration name="TweetsTest.testUserCanTweet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TweetsTest_testUserCannotTweetTheSameTweetTwiceInARow - 2019.04.18 at 17h 41m 05s.xml">
+      <configuration name="TweetsTest.testUserCannotTweetTheSameTweetTwiceInARow" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -743,24 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/main/java/data/MySqlData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -822,20 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Register/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BBC/src/main/java/registrationdata/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -843,13 +650,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -885,6 +685,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BBC/src/main/java/homepagedata/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4331">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBC/src/main/java/data/MySqlData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBC/src/main/java/contactdata/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-948">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Contact/ContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="58" selection-start-line="23" selection-start-column="7" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Signin/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
@@ -901,30 +738,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/main/java/contactdata/Contact.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-948">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="548">
+          <caret line="86" column="40" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Contact/ContactTest.java">
+    <entry file="file://$PROJECT_DIR$/BBC/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="58" selection-start-line="23" selection-start-column="7" selection-end-line="24" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BBC/src/main/java/homepagedata/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/Twitter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4535">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/auth/auth.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/client/tweets/TweetsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -933,14 +778,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Homepage/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="341" column="43" selection-start-line="341" selection-start-column="43" selection-end-line="341" selection-end-column="43" />
+        <state relative-caret-position="-3104">
+          <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#7624#7625#0" expanded="true" />
-            <element signature="e#7670#7671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBC/src/test/java/Register/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/client/base/BaseTwitterClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/api/tests/TweetsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="62" column="4" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -997,7 +870,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AutomationTeam11</last-edited>
+          <last-edited>BBC</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
